@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    font-family: "Montserrat",sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-color: #d3597c;
+    --second-color: #3d0909;
+}
+
+.header{
+    padding: 30px 10px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    padding: 3px 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar li a:hover{
+    background: var(--main-color);
+    
+}
+
+.logo-header img{
+    width: 80px;
+    height: 50px;
+    top: 18px;
+    position: absolute;
+}
+
+.logo-header p{
+    position: absolute;
+    left: 80px;
+    top: 22px;
+}
+
+.logo-header a{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+.footer{
+    background: #fcdddd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.footer p{
+    color: var(--second-color);
+    font-size: 20px;
+}
+
+.redes a, .footer p a{
+    color: var(--main-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.redes a:hover, .footer p a:hover{
+    color: var(--second-color);
+}
+
+.form_contact{
+    background: #fff;
+    display: flex;
+}
+
+.imgform, .form{
+    width: 50%;
+}
+
+.imgform img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form h1{
+    color: #d3597c;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form-info{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form input, .form textarea{
+    outline: none;
+    border: none;
+    background: #fcdddd;
+    color: #3d0909;
+    padding: 15px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.form textarea{
+    height: 30%;
+}
+
+#primary-button{
+    background: #d3597c;
+    color: #fff;
+    padding: 10px;
+    width: 30%;
+    margin-top: 30px;
+    align-self: center;
+}
+
+#primary-button:hover{
+    background: #000;
+    cursor: pointer;
+}
